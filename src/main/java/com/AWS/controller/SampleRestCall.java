@@ -8,12 +8,12 @@ public class SampleRestCall
  @RequestMapping("/")
 	public String restcall()
 	{
-		return "Sample Rest call";
+		return "Success";
 	}
 	
  @RequestMapping("/Rest")
 	public String restcall1()
 	{
-		return "Sample Rest call with Rest RestAPI Name";
+		return "Sample Rest call using Rest RestAPI";
 	}
 }
